@@ -1,3 +1,8 @@
+/* Answers are based of off Oracle database (if any syntactical differences are found) */
+/* Table structures are mentioned at the end of this document.
+Loaded in Local Oracle database [CRUD can be found in mini_project_sql_crud.sql]
+*/
+
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Please list the names of the facilities that do. */
 SELECT name, 
@@ -5,7 +10,8 @@ SELECT name,
 FROM   country_club.facilities 
 WHERE  membercost != 0; 
 
-/* Tennis Court 1	5
+/* Output
+Tennis Court 1	5
 Tennis Court 2	5
 Massage Room 1	9.9
 Massage Room 2	9.9
@@ -29,7 +35,8 @@ FROM   country_club.facilities
 WHERE  membercost != 0 
        AND membercost < ( 20 * monthlymaintenance ) / 100; 
        
-/* 0	Tennis Court 1	5	200
+/* Output
+0	Tennis Court 1	5	200
 1	Tennis Court 2	5	200
 4	Massage Room 1	9.9	3000
 5	Massage Room 2	9.9	3000
@@ -40,7 +47,8 @@ Write the query without using the OR operator. */
 SELECT * 
 FROM   country_club.facilities 
 WHERE  facid IN ( 1, 5 ); 
-/*1	Tennis Court 2	5	25	8000	200
+/* Output
+1	Tennis Court 2	5	25	8000	200
 5	Massage Room 2	9.9	80	4000	3000 */
 
 /* Q5: How can you produce a list of facilities, with each labelled as
@@ -54,7 +62,7 @@ SELECT name,
          ELSE 'cheap' 
        END AS monthly_cost 
 FROM   country_club.facilities; 
-/*
+/* Output
 Tennis Court 1	200	expensive
 Tennis Court 2	200	expensive
 Badminton Court	50	cheap
@@ -69,12 +77,17 @@ Pool Table	15	cheap
 
 /* Q6: You'd like to get the first and last name of the last member(s)
 who signed up. Do not use the LIMIT clause for your solution. */
+
 SELECT firstname, 
        surname 
 FROM   country_club.members 
 WHERE  memid = (SELECT Max(memid) 
-                FROM   country_club.members);
- 
+                FROM   country_club.members); 
+/*
+Since the memid is an integer and will increase based
+on latest signup, the last member would have 
+the maximum no. which can be used to find the related details 
+*/
 
 /* Q7: How can you produce a list of all members who have used a tennis court?
 Include in your output the name of the court, and the name of the member
@@ -184,7 +197,7 @@ GROUP  BY result.name
 HAVING SUM(result.revenue) < 1000 
 ORDER  BY 2; 
 
--- Tables data
+-- Table structures 
 SELECT
     bookid,
     facid,
