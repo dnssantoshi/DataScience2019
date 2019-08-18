@@ -1,7 +1,6 @@
 ## DataScience
 
-#### 1. Introduction
-#### 2. Exploratory Data Analysis
-  - ###### a.Data Wrangling
-  - ###### b. Data Storytelling
-  - ###### c. Statistical Analysis
+###### 1. Introduction
+###### 2. Data Wrangling
+###### 3. Data Storytelling
+###### 4. Statistical Analysis
