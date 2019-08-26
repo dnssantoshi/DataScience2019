@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5fe2cf5-5aa1-49b4-8e72-a50b00a909e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category_labels/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/category_labels/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/capstone_data_story_telling-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/capstone_data_story_telling_7-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/capstone_data_wrangling-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/capstone_data_wrangling_5-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/.ipynb_checkpoints/category_labels-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/capstone_data_story_telling_7.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/capstone_data_wrangling_5.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_category_labels/category_labels_4.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_data/cleaned_flipkart_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_data/flipkart_com-ecommerce_sample.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone_docs/capstone_1_proposal/Capstone 1 Project Proposal.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,22 +28,24 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capstone_one/code/capstone_data_story_telling_7.ipynb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_wrangling_json/miniproject/mini.py">
+        <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -54,10 +67,11 @@
       <list>
         <option value="$PROJECT_DIR$/FirstPyScript.py" />
         <option value="$PROJECT_DIR$/FirstHands/ProductCategories.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="180" />
     <option name="y" value="126" />
     <option name="width" value="1080" />
@@ -78,39 +92,25 @@
             <path>
               <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
               <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="category_labels" type="462c0819:PsiDirectoryNode" />
+              <item name="capstone_one" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
               <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="capstone_one" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
               <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="data_wrangling_json" type="462c0819:PsiDirectoryNode" />
+              <item name="capstone_one" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
               <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="data_wrangling_json" type="462c0819:PsiDirectoryNode" />
-              <item name="miniproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="data_wrangling_sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datascience" type="462c0819:PsiDirectoryNode" />
+              <item name="capstone_one" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datascience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="capstone_1_proposal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,9 +228,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Python" />
       <item itemvalue="Python.FirstPyScript" />
       <item itemvalue="Python.ProductCategories" />
-      <item itemvalue="Python.Python" />
     </list>
     <recent_temporary>
       <list>
@@ -253,10 +253,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="126" width="1080" height="620" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2407932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17970401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,23 +278,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FirstHands/FirstPyScript.py" />
     <entry file="file://$PROJECT_DIR$/FirstHands/ProductCategories.py" />
+    <entry file="file://$PROJECT_DIR$/data_wrangling_json/miniproject/mini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_wrangling_json/miniproject/mini.py">
+    <entry file="file://$PROJECT_DIR$/capstone_one/code/capstone_data_story_telling_7.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
