@@ -1,4 +1,4 @@
-#### Product Category Predictions
+#### Product Category Recommendations
 
 ###### 1. Introduction
 ###### 2. Data Wrangling
